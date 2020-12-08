@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+
+.wrapper{
+    background-image: url(img/v2-banner-scaled.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.over-lay{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+}
+.navbar{
+    width: 80%;
+    height: 15vh;
+    margin: 5% auto;
+    background-color: #0B0A09;
+    border-radius: 10px;
+    opacity: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+}
+.navbar .logo img{
+    height: 10vh;
+    width: auto;
+    margin-left: 0%;
+}
+.navbar .nav {
+    width: 40%;
+    margin-right: 5%;
+}
+.navbar .nav ul li{
+    list-style-type: none;
+    float: left;
+    padding: 5%;
+}
+.navbar .nav ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    transition: all ease 0.5s;
+    font-size: 20px;
+}
+.navbar .nav ul li:hover a{
+    text-decoration: underline;
+    color: #E61C25;
+}
+.head{
+    margin-left: 60%;
+    height: 20vh;
+    width: 500px;
+}
+.head h1 {
+    color: #E61C25;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-size: 50px;
+    text-align: center;
+}
+.head P{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 5%;
+    text-align: center;
+}
+.button{
+    margin-left: 67%;
+    padding: 20px;
+    margin-top: 50px;
+    width: 300px;
+}
+.button button{
+    background-color: #E61C25;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    height: 70px;
+    font-size: 25px;
+}
+.button:hover button{
+    background-color: #0B0A09;
+}
+
+/* main-page */
+
+.main-page{
+    width: 100%;
+    background-color: #0D0D0D;
+}
+.content h1{
+    color: #E61C25;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+}
+.content h1::before{
+    content: "";
+    display: block;
+    width: 200px;
+    height: 1px;
+    background-color: #cccccc;
+    position: absolute;
+    left: 60%;
+    top: 90%;
+
+}
+.content h1::after{
+    content: "";
+    display: block;
+    width: 200px;
+    height: 1px;
+    background-color: #cccccc;
+    position: absolute;
+    right: 60%;
+    top: 90%;
+
+}
+.content p{
+    color: #777676;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 40px;
+    text-align: center;
+}
+.content .link{
+    margin: 50px auto;
+    margin-left: 37%;
+}
+.content .link a{
+    width: 200px;
+    height: 60px;
+    color: #ffffff;
+    background-color: #E61C25;
+    padding: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.content .link:hover a{
+    background-color: #000000;
+}
+.img-1{
+    width: 10%;
+    height: 200px;
+    float: left;
+    position: relative;
+    background-image: url(img/erik-mclean-yaC7U5qEYrc-unsplash.jpg);
+    background-size: cover;
+    padding: 10%;
+    margin: 10%;
+    border-radius: 30px;
+}
+.img-2{
+    width: 10%;
+    height: 200px;
+    float: left;
+    position: relative;
+    background-image: url(img/hidayat-abisena-NnGZeKs4vI8-unsplash.jpg);
+    background-size: cover;
+    padding: 10%;
+    margin: 10%;
+    border-radius: 30px;
+}
+.images .img-1 h1{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff0000;
+    font-size: 30px;
+    top: 30%;
+    left: 22%;
+}
+.images .img-2 h1{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff0000;
+    font-size: 30px;
+    top: 30%;
+    left: 22%;
+}
+.images .img-1 button{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    top: 40%;
+    left: 22%;
+    padding: 10px;
+    background-color: #ff0000;
+    border-radius: 10px;
+    border: none;
+}
+.images .img-1 button:hover{
+    background-color: #000000;
+}
+.images .img-2 button{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    top: 40%;
+    left: 22%;
+    padding: 10px;
+    background-color: #ff0000;
+    border-radius: 10px;
+    border: none;
+}
+.images .img-2 button:hover{
+    background-color: #000000;
+}
+
+/* text */
+.text h1{
+    color: #E61C25;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding: 100px;
+    text-align: center;
+}
+.text h3{
+    color: #777676;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 50px;
+    text-align: center;
+}
+.text p{
+    color: #777676;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 50px;
+    text-align: center;
+}
+.text h2{
+    color: #777676;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding: 50px;
+    text-align: center;
+}
